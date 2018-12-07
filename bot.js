@@ -9,7 +9,7 @@ const moment = require('moment');
 
 
 var Eris = require("eris");
-let  ID = "448501199608610826";
+let  ID = "353708472690540564";
 const BT  = new Eris(process.env.TOKEN);
 BT.connect(process.env.TOKEN)
 BT.on("ready", ready => {
